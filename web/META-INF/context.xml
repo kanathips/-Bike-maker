@@ -1,2 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Context path="/Bike-Maker"/>
+<Context path="/Bike-Maker">
+  <Resource auth="Container" driverClassName="com.mysql.jdbc.Driver" maxActive="20" maxIdle="10" maxWait="-1" name="vcouldDB" password="2wLjrYpe" type="javax.sql.DataSource" url="jdbc:mysql://database.it.kmitl.ac.th:3306/it_13?zeroDateTimeBehavior=convertToNull" username="it_13"/>
+</Context>
